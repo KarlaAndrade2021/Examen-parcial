@@ -1,56 +1,15 @@
-# CodeIgniter 4 Framework
 
-## What is CodeIgniter?
+## Que es CodeIgniter?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+CodeIgniter es un framework bastante util y avanzado que se puede utilizar para poder hacer conexion de una pagina web con una base de datos utilizando la aplicacion de Xampp, Apache y MySql, los cuales deben esta activados y sin complicaciones ya que todo lo que se haga de modificaciones en el Framework se debe visualizar adecuadamente.
+Los metodos utilizados en el framework funcionan para realizar Insertar, Modificar, Actualizar y Eliminar datos desde un fomulario y que afecta directamente a nuestra tabla o base de datos.
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+La version de PHP que utiliza el Framework de Codeigneiter para ser visualizado adecuademente es version 7.3.
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+# Informacion del Proyecto
+El proyecto elborado en esta ocasion es de una tabla que guarda los datos de los vendedores de una empresa, la tabla incluye el codigo del trabajador, el nombre, la fecha en que realizo el envio del producto que logro vender, el nombre del producto vendido, la cantidad, el precio y el total de la venta del producto.
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+# Datos importantes
+Nombre del estudiante: Karla Marlen Andrade Zuleta
+Carnet: 2007-15060
 
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.3 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
