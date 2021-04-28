@@ -7,7 +7,7 @@ Los metodos utilizados en el framework funcionan para realizar Insertar, Modific
 La version de PHP que utiliza el Framework de Codeigneiter para ser visualizado adecuademente es version 7.3.
 
 # Informacion del Proyecto
-El proyecto elborado en esta ocasion es de una tabla que guarda los datos de los vendedores de una empresa, la tabla incluye el codigo del trabajador, el nombre, la fecha en que realizo el envio del producto que logro vender, el nombre del producto vendido, la cantidad, el precio y el total de la venta del producto.
+El proyecto elaborado en esta ocasion es de una tabla que guarda los datos de los vendedores de una empresa, la tabla incluye el codigo del trabajador, el nombre, la fecha en que realizo el envio del producto que logro vender, el nombre del producto vendido, la cantidad, el precio y el total de la venta del producto.
 
 # Datos importantes
 Nombre del estudiante: Karla Marlen Andrade Zuleta
